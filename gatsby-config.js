@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `portfolio`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `Erdem Aydoğdu`,
+    siteUrl: `https://erdemaydogdu.com`
   },
   plugins: ["gatsby-plugin-emotion"]
 };
