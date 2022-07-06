@@ -1,0 +1,28 @@
+html, body {
+    width: 99%;
+    height:99%;    
+  }
+  
+  body {
+      background: linear-gradient(-35deg, #ee7752, #e73c7e, #4bb6e0, #0db68e);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+
+  img {
+    width: 250px;
+    -webkit-filter: drop-shadow(1px 1px 5px #d3d3d3);
+    filter: drop-shadow(1px 1px 5px #d3d3d3);
+  }
